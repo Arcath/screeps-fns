@@ -5,7 +5,7 @@
  * 
  * @returns An array of strings
  */
-export default function deflate(objects: Array<{id: string}>){
+export default function deflate(objects: Array<{id: string}>) {
   return objects.map((object) => {
     return object.id
   })

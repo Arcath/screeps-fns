@@ -5,6 +5,6 @@ import objectsFromIds from '../objects-from-ids'
  * 
  * @see objectsFromIds
  */
-export default function inflate<T>(ids: string[]){
+export default function inflate<T>(ids: string[]) {
   return objectsFromIds<T>(ids)
 }

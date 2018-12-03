@@ -1,4 +1,4 @@
-interface StubGameOptions{
+interface StubGameOptions {
   objectsById?: {
     [id: string]: any
   }
@@ -15,7 +15,7 @@ interface StubGameOptions{
  * 
  * @param options The options to use for the game state.
  */
-export default function stubGame(options: StubGameOptions = {}){
+export default function stubGame(options: StubGameOptions = {}) {
   const g = global as any
 
   g.Game = {
@@ -29,19 +29,19 @@ export default function stubGame(options: StubGameOptions = {}){
     rooms: {}
   }
 
-  if(options.rooms){
+  if(options.rooms) {
     options.rooms.forEach((room) => {
       g.Game.rooms[room.name] = room
     })
   }
 
-  if(options.creeps){
+  if(options.creeps) {
     options.creeps.forEach((creep) => {
       g.Game.creeps[creep.name] = creep
     })
   }
 
-  if(options.ivm){
+  if(options.ivm) {
     g.Game.cpu.getHeapStatistics = () => {
       return {}
     }

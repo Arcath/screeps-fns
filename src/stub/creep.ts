@@ -1,4 +1,4 @@
-export default function stubCreep(creepName: string){
+export default function stubCreep(creepName: string) {
   return {
     name: creepName
   }

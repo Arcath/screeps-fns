@@ -1,4 +1,4 @@
-export default function stubRoom(name: string){
+export default function stubRoom(name: string) {
   return {
     name
   }

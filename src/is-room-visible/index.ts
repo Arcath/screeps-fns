@@ -3,6 +3,6 @@
  * 
  * @param roomName The name of the room to test
  */
-export default function isRoomVisible(roomName: string){
+export default function isRoomVisible(roomName: string) {
   return roomName in Game.rooms
 }

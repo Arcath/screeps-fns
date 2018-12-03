@@ -5,6 +5,6 @@
  * 
  * @returns A boolean value
  */
-export default function isCreepAlive(creepName: string){
+export default function isCreepAlive(creepName: string) {
   return creepName in Game.creeps
 }
