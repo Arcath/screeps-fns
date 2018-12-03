@@ -7,13 +7,17 @@
     "test": "jest",
     "prepublishOnly": "tsc",
     "compile": "tsc",
-    "document": "typedoc --out ./docs --mode file",
+    "document": "typedoc --out ./docs --mode file --name Screeps-fns",
     "lint": "tslint -p .",
     "ci": "tslint -p . && jest && tsc"
   },
   "keywords": [
     "Screeps"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Arcath/screeps-fns.git"
+  },
   "author": "Adam Laycock",
   "license": "MIT",
   "dependencies": {
