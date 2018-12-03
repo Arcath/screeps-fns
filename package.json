@@ -1,0 +1,31 @@
+{
+  "name": "screeps-fns",
+  "version": "0.0.0",
+  "description": "Helper functions for Screeps",
+  "main": "lib/screeps-fns.js",
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "tsc",
+    "compile": "tsc",
+    "document": "typedoc --out ./docs --mode file",
+    "lint": "tslint -p .",
+    "ci": "tslint -p . && jest && tsc"
+  },
+  "keywords": [
+    "Screeps"
+  ],
+  "author": "Adam Laycock",
+  "license": "MIT",
+  "dependencies": {
+    "@types/screeps": "^2.5.2",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.11",
+    "tslint": "^5.11.0",
+    "typedoc": "^0.13.0"
+  }
+}
