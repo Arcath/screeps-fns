@@ -1,6 +1,6 @@
 {
   "name": "screeps-fns",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Helper functions for Screeps",
   "main": "lib/screeps-fns.js",
   "scripts": {
