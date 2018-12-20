@@ -8,6 +8,7 @@ import isSimulation from './is-simulation'
 import ivm from './ivm'
 import objectFromId from './object-from-id'
 import objectsFromIds from './objects-from-ids'
+import towerEffectivenessAtRange from './tower-effectiveness-at-range'
 
 export {
   clearDeadCreepsFromMemory,
@@ -19,5 +20,6 @@ export {
   isSimulation,
   ivm,
   objectFromId,
-  objectsFromIds
+  objectsFromIds,
+  towerEffectivenessAtRange
 }
