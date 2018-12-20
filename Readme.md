@@ -13,5 +13,17 @@ Some of its functions are very basic, for example `isRoomVisible` is a one liner
 To keep your bundle size down you can require functions directly. For example
 
 ```js
-const ivm = require('screeps-fns/ivm')
+const ivm = require('screeps-fns/lib/ivm')
 ```
+
+or you can import from the module like so:
+
+```ts
+import {ivm} from 'screeps-fns'
+```
+
+both methods work fine but importing may add more code than needed.
+
+## Functions
+
+For a list of functions and documentation head to [screep-fns](https://screeps-fns.arcath.net/)

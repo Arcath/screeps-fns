@@ -73,7 +73,12 @@
 				</blockquote>
 				<h2 id="usage">Usage</h2>
 				<p>To keep your bundle size down you can require functions directly. For example</p>
-				<pre><code class="language-js"><span class="hljs-keyword">const</span> ivm = <span class="hljs-built_in">require</span>(<span class="hljs-string">'screeps-fns/ivm'</span>)</code></pre>
+				<pre><code class="language-js"><span class="hljs-keyword">const</span> ivm = <span class="hljs-built_in">require</span>(<span class="hljs-string">'screeps-fns/lib/ivm'</span>)</code></pre>
+				<p>or you can import from the module like so:</p>
+				<pre><code class="language-ts"><span class="hljs-keyword">import</span> {ivm} <span class="hljs-keyword">from</span> <span class="hljs-string">'screeps-fns'</span></code></pre>
+				<p>both methods work fine but importing may add more code than needed.</p>
+				<h2 id="functions">Functions</h2>
+				<p>For a list of functions and documentation head to <a href="https://screeps-fns.arcath.net/">screep-fns</a></p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -89,6 +94,12 @@
 					<li class=" tsd-kind-interface tsd-is-not-exported">
 						<a href="interfaces/stubgameoptions.html" class="tsd-kind-icon">Stub<wbr>Game<wbr>Options</a>
 					</li>
+					<li class=" tsd-kind-interface tsd-is-not-exported">
+						<a href="interfaces/stubmemoryoptions.html" class="tsd-kind-icon">Stub<wbr>Memory<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#cleardeadcreepsfrommemory" class="tsd-kind-icon">clear<wbr>Dead<wbr>Creeps<wbr>From<wbr>Memory</a>
+					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#deflate" class="tsd-kind-icon">deflate</a>
 					</li>
@@ -97,6 +108,9 @@
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#iscreepalive" class="tsd-kind-icon">is<wbr>Creep<wbr>Alive</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#isobjectvisible" class="tsd-kind-icon">is<wbr>Object<wbr>Visible</a>
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#isroomvisible" class="tsd-kind-icon">is<wbr>Room<wbr>Visible</a>
@@ -118,6 +132,9 @@
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#stubgame" class="tsd-kind-icon">stub<wbr>Game</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#stubmemory" class="tsd-kind-icon">stub<wbr>Memory</a>
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#stubroom" class="tsd-kind-icon">stub<wbr>Room</a>
