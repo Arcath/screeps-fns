@@ -9,7 +9,7 @@
     "compile": "tsc",
     "document": "typedoc --out ./docs --mode file --name Screeps-fns && echo screeps-fns.arcath.net > ./docs/CNAME",
     "lint": "tslint -p .",
-    "ci": "tslint -p . && jest && tsc"
+    "ci": "tslint -p . && tsc && jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "keywords": [
     "Screeps"
@@ -29,6 +29,7 @@
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "@types/node": "^10.12.18",
+    "coveralls": "^3.0.2",
     "tslint": "^5.12.0",
     "typedoc": "^0.13.0"
   }
