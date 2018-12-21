@@ -7,7 +7,7 @@
     "test": "jest",
     "prepublishOnly": "tsc",
     "compile": "tsc",
-    "document": "typedoc --out ./docs --mode file --name Screeps-fns",
+    "document": "typedoc --out ./docs --mode file --name Screeps-fns && echo screeps-fns.arcath.net > ./docs/CNAME",
     "lint": "tslint -p .",
     "ci": "tslint -p . && jest && tsc"
   },
