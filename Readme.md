@@ -1,5 +1,7 @@
 # Screeps-fns
 
+[![Build Status](https://travis-ci.org/Arcath/screeps-fns.svg?branch=master)](https://travis-ci.org/Arcath/screeps-fns) [![Coverage Status](https://coveralls.io/repos/github/Arcath/screeps-fns/badge.svg?branch=master)](https://coveralls.io/github/Arcath/screeps-fns?branch=master)
+
 Screeps-fns is designed to be a `date-fns` like library for screeps.
 
 Some of its functions are very basic, for example `isRoomVisible` is a one liner. The idea is to make your code more readable AND prevent future issues from API changes.
