@@ -70,6 +70,7 @@
 						<section class="tsd-index-section tsd-is-not-exported">
 							<h3>Interfaces</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-interface tsd-is-not-exported"><a href="interfaces/roomoptions.html" class="tsd-kind-icon">Room<wbr>Options</a></li>
 								<li class="tsd-kind-interface tsd-is-not-exported"><a href="interfaces/stubgameoptions.html" class="tsd-kind-icon">Stub<wbr>Game<wbr>Options</a></li>
 								<li class="tsd-kind-interface tsd-is-not-exported"><a href="interfaces/stubmemoryoptions.html" class="tsd-kind-icon">Stub<wbr>Memory<wbr>Options</a></li>
 							</ul>
@@ -81,10 +82,12 @@
 								<li class="tsd-kind-function"><a href="globals.html#deflate" class="tsd-kind-icon">deflate</a></li>
 								<li class="tsd-kind-function tsd-has-type-parameter"><a href="globals.html#inflate" class="tsd-kind-icon">inflate</a></li>
 								<li class="tsd-kind-function"><a href="globals.html#iscreepalive" class="tsd-kind-icon">is<wbr>Creep<wbr>Alive</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#ismyroom" class="tsd-kind-icon">is<wbr>MyRoom</a></li>
 								<li class="tsd-kind-function"><a href="globals.html#isobjectvisible" class="tsd-kind-icon">is<wbr>Object<wbr>Visible</a></li>
 								<li class="tsd-kind-function"><a href="globals.html#isroomvisible" class="tsd-kind-icon">is<wbr>Room<wbr>Visible</a></li>
 								<li class="tsd-kind-function"><a href="globals.html#issimulation" class="tsd-kind-icon">is<wbr>Simulation</a></li>
 								<li class="tsd-kind-function"><a href="globals.html#ivm" class="tsd-kind-icon">ivm</a></li>
+								<li class="tsd-kind-function"><a href="globals.html#myrooms" class="tsd-kind-icon">my<wbr>Rooms</a></li>
 								<li class="tsd-kind-function tsd-has-type-parameter"><a href="globals.html#objectfromid" class="tsd-kind-icon">object<wbr>From<wbr>Id</a></li>
 								<li class="tsd-kind-function tsd-has-type-parameter"><a href="globals.html#objectsfromids" class="tsd-kind-icon">objects<wbr>From<wbr>Ids</a></li>
 								<li class="tsd-kind-function"><a href="globals.html#stubconstants" class="tsd-kind-icon">stub<wbr>Constants</a></li>
@@ -110,7 +113,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/clear-dead-creeps-from-memory/index.ts#L6">clear-dead-creeps-from-memory/index.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/clear-dead-creeps-from-memory/index.ts#L6">clear-dead-creeps-from-memory/index.ts:6</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -132,7 +135,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/deflate/index.ts#L8">deflate/index.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/deflate/index.ts#L8">deflate/index.ts:8</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -164,7 +167,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/inflate/index.ts#L8">inflate/index.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/inflate/index.ts#L8">inflate/index.ts:8</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -203,7 +206,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/is-creep-alive/index.ts#L8">is-creep-alive/index.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/is-creep-alive/index.ts#L8">is-creep-alive/index.ts:8</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -226,6 +229,37 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="ismyroom" class="tsd-anchor"></a>
+					<h3>is<wbr>MyRoom</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>MyRoom<span class="tsd-signature-symbol">(</span>roomName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Room</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/is-my-room/index.ts#L8">is-my-room/index.ts:8</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns true if the room has a controller and is yours.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>roomName: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Room</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>A <code>Room</code> or the name of a room.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
 					<a name="isobjectvisible" class="tsd-anchor"></a>
 					<h3>is<wbr>Object<wbr>Visible</h3>
 					<ul class="tsd-signatures tsd-kind-function">
@@ -235,7 +269,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/is-object-visible/index.ts#L6">is-object-visible/index.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/is-object-visible/index.ts#L6">is-object-visible/index.ts:6</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -266,7 +300,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/is-room-visible/index.ts#L6">is-room-visible/index.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/is-room-visible/index.ts#L6">is-room-visible/index.ts:6</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -297,7 +331,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/is-simulation/index.ts#L6">is-simulation/index.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/is-simulation/index.ts#L6">is-simulation/index.ts:6</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -319,7 +353,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/ivm/index.ts#L4">ivm/index.ts:4</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/ivm/index.ts#L4">ivm/index.ts:4</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -328,6 +362,28 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function">
+					<a name="myrooms" class="tsd-anchor"></a>
+					<h3>my<wbr>Rooms</h3>
+					<ul class="tsd-signatures tsd-kind-function">
+						<li class="tsd-signature tsd-kind-icon">my<wbr>Rooms<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Room</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/my-rooms/index.ts#L6">my-rooms/index.ts:6</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns an array of all your rooms. See <code>isMyRoom</code></p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Room</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -341,7 +397,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/object-from-id/index.ts#L6">object-from-id/index.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/object-from-id/index.ts#L6">object-from-id/index.ts:6</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -378,7 +434,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/objects-from-ids/index.ts#L8">objects-from-ids/index.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/objects-from-ids/index.ts#L8">objects-from-ids/index.ts:8</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -415,7 +471,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/stub/constants.ts#L6">stub/constants.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/stub/constants.ts#L6">stub/constants.ts:6</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -437,7 +493,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/stub/creep.ts#L6">stub/creep.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/stub/creep.ts#L6">stub/creep.ts:6</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -473,7 +529,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/stub/game.ts#L18">stub/game.ts:18</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/stub/game.ts#L18">stub/game.ts:18</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -505,7 +561,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/stub/memory.ts#L12">stub/memory.ts:12</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/stub/memory.ts#L12">stub/memory.ts:12</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -530,13 +586,13 @@
 					<a name="stubroom" class="tsd-anchor"></a>
 					<h3>stub<wbr>Room</h3>
 					<ul class="tsd-signatures tsd-kind-function">
-						<li class="tsd-signature tsd-kind-icon">stub<wbr>Room<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></li>
+						<li class="tsd-signature tsd-kind-icon">stub<wbr>Room<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, options<span class="tsd-signature-symbol">?: </span><a href="interfaces/roomoptions.html" class="tsd-signature-type">RoomOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/stub/room.ts#L1">stub/room.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/stub/room.ts#L8">stub/room.ts:8</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -544,9 +600,15 @@
 								<li>
 									<h5>name: <span class="tsd-signature-type">string</span></h5>
 								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> options: <a href="interfaces/roomoptions.html" class="tsd-signature-type">RoomOptions</a><span class="tsd-signature-symbol"> =&nbsp;{}</span></h5>
+								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">object</span></h4>
 							<ul class="tsd-parameters">
+								<li class="tsd-parameter">
+									<h5>controller<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></h5>
+								</li>
 								<li class="tsd-parameter">
 									<h5>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
 								</li>
@@ -564,7 +626,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/c9ecd36/src/tower-effectiveness-at-range/index.ts#L7">tower-effectiveness-at-range/index.ts:7</a></li>
+									<li>Defined in <a href="https://github.com/Arcath/screeps-fns/blob/0ac5c73/src/tower-effectiveness-at-range/index.ts#L7">tower-effectiveness-at-range/index.ts:7</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -604,6 +666,9 @@
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-interface tsd-is-not-exported">
+						<a href="interfaces/roomoptions.html" class="tsd-kind-icon">Room<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-is-not-exported">
 						<a href="interfaces/stubgameoptions.html" class="tsd-kind-icon">Stub<wbr>Game<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-is-not-exported">
@@ -622,6 +687,9 @@
 						<a href="globals.html#iscreepalive" class="tsd-kind-icon">is<wbr>Creep<wbr>Alive</a>
 					</li>
 					<li class=" tsd-kind-function">
+						<a href="globals.html#ismyroom" class="tsd-kind-icon">is<wbr>MyRoom</a>
+					</li>
+					<li class=" tsd-kind-function">
 						<a href="globals.html#isobjectvisible" class="tsd-kind-icon">is<wbr>Object<wbr>Visible</a>
 					</li>
 					<li class=" tsd-kind-function">
@@ -632,6 +700,9 @@
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#ivm" class="tsd-kind-icon">ivm</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#myrooms" class="tsd-kind-icon">my<wbr>Rooms</a>
 					</li>
 					<li class=" tsd-kind-function tsd-has-type-parameter">
 						<a href="globals.html#objectfromid" class="tsd-kind-icon">object<wbr>From<wbr>Id</a>
