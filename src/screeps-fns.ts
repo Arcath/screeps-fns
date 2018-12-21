@@ -1,3 +1,4 @@
+import cacheInTick from './cache-in-tick'
 import clearDeadCreepsFromMemory from './clear-dead-creeps-from-memory'
 import deflate from './deflate'
 import inflate from './inflate'
@@ -13,6 +14,7 @@ import objectsFromIds from './objects-from-ids'
 import towerEffectivenessAtRange from './tower-effectiveness-at-range'
 
 export {
+  cacheInTick,
   clearDeadCreepsFromMemory,
   deflate,
   inflate,
