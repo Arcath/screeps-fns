@@ -11,9 +11,10 @@ import ivm from './ivm'
 import myRooms from './my-rooms'
 import objectFromId from './object-from-id'
 import objectsFromIds from './objects-from-ids'
+import sourcesInRoom from './sources-in-room'
 import towerEffectivenessAtRange from './tower-effectiveness-at-range'
 
-import stubConstants from './stub/constants'
+import stub from './stub'
 
 export {
   cacheInTick,
@@ -29,6 +30,7 @@ export {
   myRooms,
   objectFromId,
   objectsFromIds,
+  sourcesInRoom,
   towerEffectivenessAtRange,
-  stubConstants
+  stub
 }
