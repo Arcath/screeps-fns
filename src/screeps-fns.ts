@@ -13,6 +13,8 @@ import objectFromId from './object-from-id'
 import objectsFromIds from './objects-from-ids'
 import towerEffectivenessAtRange from './tower-effectiveness-at-range'
 
+import stubConstants from './stub/constants'
+
 export {
   cacheInTick,
   clearDeadCreepsFromMemory,
@@ -27,5 +29,6 @@ export {
   myRooms,
   objectFromId,
   objectsFromIds,
-  towerEffectivenessAtRange
+  towerEffectivenessAtRange,
+  stubConstants
 }
