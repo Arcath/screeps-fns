@@ -6,7 +6,7 @@ import cacheInTick from '../cache-in-tick'
  * 
  * @param room The room to find sources in.
  */
-export default function sourcesInRoom(room: Room){
+export default function sourcesInRoom(room: Room) {
   return cacheInTick(`_fns_sources_in_room_${room.name}`, () => {
     return room.find(FIND_SOURCES)
   })
