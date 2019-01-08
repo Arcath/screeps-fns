@@ -20,17 +20,16 @@
   },
   "author": "Adam Laycock",
   "license": "MIT",
-  "dependencies": {
-    "@types/screeps": "^2.5.3",
-    "jest": "^23.6.0",
-    "ts-jest": "^23.10.5",
-    "typescript": "^3.2.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^23.3.12",
     "@types/node": "^10.12.18",
     "coveralls": "^3.0.2",
     "tslint": "^5.12.0",
-    "typedoc": "^0.14.0"
+    "typedoc": "^0.14.0",
+    "@types/screeps": "^2.5.3",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
   }
 }
