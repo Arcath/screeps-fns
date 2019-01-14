@@ -12,8 +12,13 @@ describe('Is Creep Alive', () => {
   it('should return true if the creep is alive', () => {
     stubGame({
       creeps: [
-        stubCreep('test')
+        stubCreep({
+          name: 'test',
+          body: []
+        })
       ]
     })
+
+    expect(isCreepAlive('test')).toBe(true)
   })
 })

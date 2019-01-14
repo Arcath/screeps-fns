@@ -1,11 +1,11 @@
 import stubConstants from './constants'
-import stubCreep from './creep'
+import stubCreep, {CreepOptions} from './creep'
 import stubGame from './game'
 import stubMemory from './memory'
 import stubRoom, {StubRoomOptions} from './room'
 
 interface StubOptions {
-  creeps?: string[]
+  creeps?: CreepOptions[]
   rooms?: {[roomName: string]: StubRoomOptions}
 }
 

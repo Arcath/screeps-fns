@@ -1,3 +1,5 @@
+import {CreepOptions} from './creep'
+
 interface StubGameOptions {
   objectsById?: {
     [id: string]: any
@@ -5,7 +7,7 @@ interface StubGameOptions {
   ivm?: boolean
   cpuLimit?: number
   rooms?: any[]
-  creeps?: any[]
+  creeps?: CreepOptions[]
 }
 
 /**

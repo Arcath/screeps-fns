@@ -13,7 +13,10 @@ describe('Clear Dead Creeps From Memory', () => {
     })
     stubGame({
       creeps: [
-        stubCreep('bar')
+        stubCreep({
+          name: 'foo',
+          body: []
+        })
       ]
     })
 

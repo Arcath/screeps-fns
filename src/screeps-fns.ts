@@ -1,6 +1,8 @@
 import cacheInTick from './cache-in-tick'
 import clearDeadCreepsFromMemory from './clear-dead-creeps-from-memory'
+import countBodyPart from './count-body-part'
 import deflate from './deflate'
+import hasBodyPart from './has-body-part'
 import inflate from './inflate'
 import isCreepAlive from './is-creep-alive'
 import isMyRoom from './is-my-room'
@@ -19,7 +21,9 @@ import stub from './stub'
 export {
   cacheInTick,
   clearDeadCreepsFromMemory,
+  countBodyPart,
   deflate,
+  hasBodyPart,
   inflate,
   isCreepAlive,
   isMyRoom,
